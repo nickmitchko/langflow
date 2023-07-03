@@ -22,7 +22,7 @@ include = ["src/backend/langflow/*", "src/backend/langflow/**/*"]
 langflow = "langflow.__main__:main"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.11"
+python = ">=3.9,<3.12"
 fastapi = "^0.99.0"
 uvicorn = "^0.22.0"
 beautifulsoup4 = "^4.12.2"
