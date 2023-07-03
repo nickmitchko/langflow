@@ -141,6 +141,8 @@ class LLMFrontendNode(FrontendNode):
             "model_type",
             "deployment_name",
             "credentials",
+            "top_p",
+            "max_new_tokens"
         ]:
             field.advanced = False
             field.show = True
